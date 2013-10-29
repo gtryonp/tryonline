@@ -1,7 +1,7 @@
 {
 "name": "tryonline",
 "title": "jQuery tryonline",
-"description": "An autocomplete control with only one line interface",
+"description": "An autocomplete control with only one line interface (No dropdown|select|combobox control). Ideal for compact designs",
 "keywords": [
 "autocomplete",
 "input",
@@ -28,6 +28,7 @@
 ],
 "bugs": "https://github.com/gtryonp/tryonline/issues",
 "homepage": "https://github.com/gtryonp/tryonline",
+"demo": "http://tryonsite.com/tryonline/",
 "docs": "https://github.com/gtryonp/tryonline",
 "download": "http://code.jquery.com/#color",
 "dependencies": {
