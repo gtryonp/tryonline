@@ -1,0 +1,36 @@
+{
+"name": "tryonline",
+"title": "jQuery tryonline",
+"description": "An autocomplete control with only one line interface",
+"keywords": [
+"autocomplete",
+"input",
+"inline",
+"ajax"
+],
+"version": "1.0.0",
+"author": {
+"name": "Grenville Tryon Pera",
+"url": "https://github.com/gtryonp/tryonline"
+},
+"maintainers": [
+{
+"name": "Grenville Tryon",
+"email": "gtryonp@hotmail.com",
+"url": "http://www.tryonsite.com"
+}
+],
+"licenses": [
+{
+"type": "GPL-2.0",
+"url": "http://opensource.org/licenses/GPL-2.0"
+}
+],
+"bugs": "https://github.com/gtryonp/tryonline/issues",
+"homepage": "https://github.com/gtryonp/tryonline",
+"docs": "https://github.com/gtryonp/tryonline",
+"download": "http://code.jquery.com/#color",
+"dependencies": {
+"jquery": ">=1.5"
+}
+}
