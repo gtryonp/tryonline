@@ -35,6 +35,7 @@
 					return false;
 				};
 				if (code == 38 || code == 40) {
+					e.preventDefault();
 					if(code==38 && mycount>1)	mycount--;
 					if(code==40 && mycount<source.length-1)	mycount++;
 					var buffer = $(this).val().slice(0,$(this)[0].selectionStart) ;
@@ -46,6 +47,7 @@
 								$(this).val(source[k][1]);
 								$("#"+myvar).val(source[k][0]);
 								$(this)[0].selectionStart=buffer.length;
+								$(this)[0].selectionEnd=500;
 								break;
 							};
 						};
@@ -74,6 +76,7 @@
 								obj.val(source[k][1]);
 								$("#"+myvar).val(source[k][0]);
 								obj[0].selectionStart=buffer.length;
+								$(this)[0].selectionEnd=500;
 								break;
 							};
 						}
